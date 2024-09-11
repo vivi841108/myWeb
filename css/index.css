@@ -14,33 +14,44 @@
     position: absolute;
     transform-origin: center;
     margin-top: 3rem;
-    margin-left: -100px;
+    margin-left: -50px;
     left: 50%;
     z-index: 2;
 }
+.s-cut02 { 
+    width: 320px;
+    margin: auto;
+}
 
 .s-cut02 video{
-    width: 100vw;
+    width: 320px;
     height: 100%;
     max-width: 100vw;
 }
 .s-cut02 .s-img-bg01{
-    width: 100vw;
+    width: 320px;
     height: auto;
     max-width: 100vw;
-    z-index: 1;
+    z-index: 0;
+    margin: auto;
 }
-@media (min-width: 1200px) {
-    .s-cut02 video {
-        max-width: 640px;
-    }
-    .s-cut02 .s-img-bg01{
-        max-width: 640px;
+.f-carousel{
+    width: 320px;
+    margin: auto;
+}
+@media (min-width: 576px) {
+    .s-cut01 .s-img-logo01{
+        width: 100px;
+        margin-top: 0.5rem;
     }
     .s-cut01 .s-img-bg01{
-        max-width: 640px;
+        max-width: 320px;
     }
-    .s-cut01 .s-img-logo01{
-        margin-top: 1.5rem;
+    .s-cut02 video {
+        max-width: 320px;
     }
+    .s-cut02 .s-img-bg01{
+        max-width: 320px;
+    }
+
 }
