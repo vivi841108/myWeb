@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>首頁模板</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <!--css-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <link href="css/animate.css" rel="stylesheet" type="text/css"/>
@@ -26,22 +27,27 @@
             <img class="img-fluid s-img-logo01 animate__animated animate__jackInTheBox" src="img/cut1_logo.png" alt="logo">
         </div>
         <div class="s-cut02 s-cut02-v" onclick="theVideo()">
+            <a href="https://www.youtube.com/" target="_blank" title="外連影片">
             <video id="theVideo" autoplay muted>
                 <source src="video/Video.mp4" type="video/mp4">
-            </video>
-            <a class="stretched-link" href="https://www.youtube.com/" target="_blank" title="外連影片"></a>
+            </video></a>
         </div>
         <div class="s-cut02 owl-carousel owl-theme">
-            <div> <a href="https://www.google.com/" target="_blank" title="外連1" onclick="theVideo()">
-                <img class="img-fluid s-img-bg01 animate__animated animate__fadeIn" src="img/cut2_carousal1.png" alt="輪播圖1">
-            </a> </div>
             <div> 
+                <a href="https://www.google.com/" target="_blank" title="外連1" onclick="theVideo()">
+                    <img class="img-fluid s-img-bg01 animate__animated animate__fadeIn" src="img/cut2_carousal1.png" alt="輪播圖1">
+                </a> 
+            </div>
+            <div>
                 <a href="https://x.com/" target="_blank" title="外連2" onclick="theVideo()">
                     <img class="img-fluid s-img-bg01" src="img/cut2_carousal2.png" alt="輪播圖2">
-                </a> </div>
-            <div> <a href="https://bootstrap5.hexschool.com/" target="_blank" title="外連3" onclick="theVideo()">
-                <img class="img-fluid s-img-bg01" src="img/cut2_carousal3.png" alt="輪播圖3">
-            </a> </div>
+                </a>
+            </div>
+            <div> 
+                <a href="https://bootstrap5.hexschool.com/" target="_blank" title="外連3" onclick="theVideo()">
+                    <img class="img-fluid s-img-bg01" src="img/cut2_carousal3.png" alt="輪播圖3">
+                </a> 
+            </div>
         </div>
     </div>   
 </div>
